@@ -1,10 +1,10 @@
 steps:
 # Install
 - name: 'gcr.io/cloud-builders/npm'
-  args: ['install']
+  args: ['i']
 # Test
 - name: 'gcr.io/cloud-builders/npm'
-  args: ['run', 'test:unit --detectOpenHandles']
+  args: ['run', 'test:unit']
 # Build
 - name: 'gcr.io/cloud-builders/npm'
   args: ['run', 'build']
