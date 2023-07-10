@@ -11,3 +11,4 @@ steps:
 # Deploy
 - name: 'gcr.io/$PROJECT_ID/firebase'
   args: ['deploy']
+#This is my first time using GCP and doing preety good.
